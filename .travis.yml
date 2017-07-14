@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: oBn2+4OscVkfZB6sPwUFXfSAinKwUNqGoYHR8z3fvW4xkQtkxCV7OhgcO3sLGUbHrwzuVTjpK6vLxVuYmz9yQ5uNFnFXu8Gu7hnIdGD9VAhDRirfyiTbGzoqq7mzqFqZetISsCpGtj35BzoZwMvtnw6xbPkjsCSssKEiacdyw9xdKo/o0PRPQwtFNd75zcf6YcYxIRFw7syjsdPaFNq2RSM5p6XJRThb4eXolKNdmWNsQ52093FDfT0i7D5kchDEbDUB9Pts4FVLGbNqk/nbxI+aM5O2yooVt8eeToH0fdcUXjihDxn/sRZl+RbvSlggPH19EVCcIuRXq6+xteBxBACHca3B0qB+hYAZPGmdFRQNJUEe+1Zbak/TQ6M2+naniPIU94zq4ZtoGN090x3AsuLH81E2Uz/bZV001Rz+rf50gAMGs39qJEIt6oZLRNquSb9f+wjwIhi9UZ/C9EReGALdgbTidYdFPlWY1XOdfo+t0+A7Rn0HSSrxCtgpHxj7mp097zH680fPa5QxD07qRVey0GpAT4DxmY6PxlHWdV8xbenj/3C0L/6M8vpt6g0ircfdaUXanEmoJfBb1FmgsEh77mRkdhbUKdCbS1I2Amz5ocYagH+GUkLSCbEuYu9wgqD13aSlDRnQs/Urdwc2KavWWO3PD9Dc8ByFImZlVZ4=
+  app: mighty-reaches-75303
+  on:
+    repo: amandaho/Marvel-API-Redux
